@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Next.Js Temp
+
+Template ini dibuat dengan Next.js, agar mempermudah dalam membuat project baru
+
+## Features
+
+- Next.js 14
+- Tailwind CSS - @tailwindcss/typography. - @tailwindcss/plugin. - sudah memiliki typography components.
+  -memiliki font yang bisa ditukar melalui localfont
 
 ## Getting Started
 
-First, run the development server:
+PNPM Only
+
+jika belum memiliki pnpm, silahkan install terlebih dahulu
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install -g pnpm
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone repo ini di local masing masing lalu install:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
 
-## Learn More
+2. lalu jalankan dengan cara:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+pnpm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+
+lalu buka di [http://localhost:3000](http://localhost:3000) di browser masing masing.
+
+Kamu bisa memodifikasinya di `app/page.tsx`. lalu edit.
+
+Kamu juga bisa membaca dokumentasi ini [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) untuk secara otomatis mengoptimalkan dan memuat Google Font khusus.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Kamu juga bisa men deploy web kamu melalui ini [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) .
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+jangan lupa untuk membaca dokumentasi [Next.js deployment documentation](https://nextjs.org/docs/deployment) agar lebih detail cara mendeploy
