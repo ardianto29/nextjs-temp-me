@@ -5,8 +5,11 @@ Template ini dibuat dengan Next.js, agar mempermudah dalam membuat project baru
 ## Features
 
 - Next.js 14
-- Tailwind CSS - @tailwindcss/typography. - @tailwindcss/plugin. - sudah memiliki typography components.
-  -memiliki font yang bisa ditukar melalui localfont
+- Tailwind CSS
+  - @tailwindcss/typography.
+  - @tailwindcss/plugin.
+  - sudah memiliki typography components.
+- memiliki font yang bisa ditukar melalui localfont
 
 ## Getting Started
 
